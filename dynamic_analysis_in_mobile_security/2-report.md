@@ -4,7 +4,7 @@
 This report documents the reverse engineering and cryptographic analysis conducted on `Apk_task2`. Due to environment constraints preventing live emulator deployment, static reverse engineering via JADX was combined with offline Python simulation to bypass an intentional runtime anti-analysis lock and decrypt the application payload to recover the flag.
 
 ## Target Details
-- **APK Name:** Apk_task2
+- **APK Name:** app-release-task2.apk
 - **Tools Used:** JADX, Python 3 (`ctypes`, `base64`)
 - **Target File:** `com/holberton/task3/MainActivityKt.java`
 
